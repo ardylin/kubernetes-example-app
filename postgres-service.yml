@@ -7,8 +7,8 @@ metadata:
     app: demo-voting-app
 spec:
   ports:
-  - port: 
-    targetPort: 
+  - port: 5432
+    targetPort: 5432
   selector:
-     name: 
-     app: 
+     name: postgres
+     app: demo-voting-app
